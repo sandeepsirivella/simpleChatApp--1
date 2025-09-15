@@ -23,5 +23,8 @@
     "express": "^4.16.2",
     "nodemon": "^1.14.3",
     "socket.io": "^2.0.4"
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.1"
   }
 }
