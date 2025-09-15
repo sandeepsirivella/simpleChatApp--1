@@ -3,5 +3,10 @@ pipeline{
   stages{
     stage('checkout SCM'{
       steps{
-        branch:'master' ,url:'
+        branch:'master' ,url:'https://github.com/sandeepsirivella/simpleChatApp--1.git'
+      }
+    }
+    stage('build'){
+      steps{
+        npm install
         
